@@ -1,0 +1,544 @@
+/*
+Theme Name: callestheme
+Text Domain: callestheme
+Version: 1.0
+Description: Test tema för min hemsida
+Tags: responsive, teststite
+Author: Calle Fransson 
+Author URI: https://timeiggesund.se
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1 .hpt_headertitle {
+    display: none;
+}
+
+
+
+body {
+
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    background-color: #0f0f0f;
+
+}
+
+header {
+    background: #0f0f0f;
+    padding: 2rem;
+    width: 100%;
+    height: 110px;
+}
+
+header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+}
+
+.logo img {
+    height: 4rem;
+    width: 8rem;
+}
+
+header .top-bar {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+header .top-bar li a {
+    text-decoration: none;
+    color: #ececec;
+    font-size: 1.3rem;
+}
+
+header .top-bar li :hover {
+    color: #e4302c;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+
+}
+
+.bar {
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 7px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #ececec;
+    border-radius: 3px;
+}
+
+#first-section {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    background-image: url("assets/images/ChipotleFOTO.JPG");
+    height: 500px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position-y: 30%;
+  
+}
+
+#top-section {
+    min-height: 30vh;
+    width: 32rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 5px;
+}
+
+#top-section h1 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 19px;
+    color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#top-section p {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+.button-container {
+    gap: 25px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.button-primary {
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    transition: background-color .4s;
+    color: #ffffff;
+    font-size: 5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.button-container :hover {
+    color: #e4302c;
+}
+
+.button-container a i {
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.button-container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+
+.row {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+#middle-section{
+    display: flex;
+}
+.opening-hours img {
+    width: 300px;
+}
+
+
+
+.section-menu {
+    overflow-y: scroll;
+    height: 50rem;
+    color: white;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.header-menu-section {
+    display: flex;
+    justify-content: center;
+}
+
+.header-menu-section h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 60px;
+    color: #f8f8f8;
+    padding-bottom: 20px;
+
+}
+
+
+.inner-section-menu {
+    display: flex;
+}
+
+#left-section-menu {
+    display: flex;
+    justify-content: center;
+}
+
+#right-section-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.title-section {
+    display: flex;
+    padding: 20px;
+}
+
+.title-section h2 {
+    font-family: roboto;
+    font-size: 40px;
+}
+
+#left-title {
+    display: flex;
+    justify-content: center;
+}
+
+#right-title {
+    display: flex;
+    justify-content: center;
+}
+.rätter{
+    border: solid;
+    border-radius: 5px;
+    width: 30rem;
+    padding-top:3rem;
+}
+
+.rätter .menu-title{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-bottom: 20px;
+
+
+}
+.rätter .menu-title h2{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 40px;
+}
+
+.rätter li h4 {
+    font-size: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.inner-section-menu li {
+    width: 25rem;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pris {
+    height: 2rem;
+}
+#tillbehör-section{
+    display: flex;
+    justify-content: center;
+}
+div .extra-tillbehör{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: solid;
+    border-radius: 5px;
+    padding: 20px;
+    width: 29rem;
+}
+.extra-tillbehör h4{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 35px;
+}
+div .column-first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*---------Second section--------*/
+section .släpvagnar-section{
+background-color: #ececec;
+
+}
+.släpvagnar-section h1{
+    color:#ececec;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 45px;
+}
+.släpvagnar-row{
+    display: flex;
+    flex-direction: row;
+}
+.first-row-släpvagnar img{
+    width: 200px;
+    height: 200px;
+}
+div .col-sm img {
+    margin-left: 30px;
+    width: 370px;
+}
+div .col-sm h3{
+    margin-left: 28px;
+    padding-top:20px;
+    text-align: center;
+    color:#ececec;
+}
+div .col-sm ul{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+div .col-sm ul li{
+    list-style-type: none;
+    color:#ececec;
+    text-align: center;
+}
+
+
+/*---------FOOTER----------*/
+.footer-section {
+    display: flex;
+    padding-top: 20px;
+    background-color: #000000a8;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-information {
+padding-top: 5rem;
+}
+
+.footer-information li {
+    color: white;
+    list-style: none;
+}
+
+.footer-information li a {
+    color: white;
+    text-decoration: none;
+}
+
+.middle-content {
+    padding: 10px;
+}
+
+.middle-content iframe {
+    border-radius: 5px;
+    height: 17rem;
+    width: 30rem;
+}
+
+.right-content {
+    text-align: center;
+}
+
+.social-media h3 {
+    margin-bottom: 0;
+    color:white;
+    padding-bottom: 15px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media li a {
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    padding-top: 0px;
+    height:2rem;
+    text-align: center;
+    color:white;
+    background-color: #000000a8;
+}
+/* MOBILE VERSION */
+
+
+@media (max-width: 979px) {
+    .inner-section-menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+}
+
+@media (max-width: 991px) {
+
+    header .top-bar {
+        gap: 2.4rem;
+    }
+
+    .button-container{
+        gap: 10px;
+
+
+    }
+}
+
+
+
+@media (max-width: 770px) {
+
+    header {
+        position: fixed;
+        overflow: hidden;
+        top: 0;
+        z-index: 10;
+
+
+
+    }
+
+    .section {
+        margin-top: 110px;
+    }
+
+    .logo {
+        width: 7em;
+    }
+
+    header .top-bar {
+
+        position: fixed;
+        background: rgba(0, 0, 0, 0.856);
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        left: -100%;
+        top: 110px;
+        width: 100%;
+        text-align: center;
+        transition: 0.5s;
+
+    }
+
+    header .top-bar.active {
+        left: 0;
+    }
+
+    header .top-bar {
+        display: block;
+        padding: 20px 40px 20px 40px;
+    }
+
+    header .top-bar li {
+        padding: 15px 0px 15px 10px;
+
+    }
+
+    header .top-bar li a {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .hamburger {
+        position: absolute;
+        display: block;
+        left: 75%;
+        top: 35%;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+
+
+
+
+    #page-container {
+        padding: 10px;
+        margin-top: 190px;
+    }
+
+}
+@media (max-width: 575px) {
+
+.rätter{
+padding: 0px;
+width: 25rem;
+
+}
+.rätter .menu-title{
+    width: 24rem;
+    padding-top: 20px;
+}
+
+
+}
+
+@media (max-width: 375px) {
+.section-menu{
+    width: 112%;
+}
+#first-selection{
+    width: 112%;
+}
+
+}
