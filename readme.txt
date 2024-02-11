@@ -1,0 +1,1 @@
+Denna webbplats är ett projekt som jag initierade under min tidigare anställning. Jag skapade ett anpassat tema i WordPress där jag integrerade PHP, HTML, CSS och JavaScript. Trots att webbplatsen ännu inte är helt färdigställd, ägnar jag nu min fritid åt att fortsätta koda för att förbättra mina kunskaper och slutföra projektet.
